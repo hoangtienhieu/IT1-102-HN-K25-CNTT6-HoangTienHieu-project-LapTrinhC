@@ -263,7 +263,7 @@ void searchAccount (struct Account acc[],int *n) {
     fgets(keyWord,sizeof(keyWord),stdin);
     keyWord[strcspn(keyWord,"\n")]='\0';
     if (strlen(keyWord)==0) {
-        printf("Tu khoa khong duoc rong.Vui long nhap lai!\n");
+        printf("Ma hoac ten tai khoan can tim khong duoc rong.Vui long nhap lai!\n");
         return;
     }
     int found=0;
